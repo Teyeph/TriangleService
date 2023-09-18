@@ -55,7 +55,7 @@ public class TriangleServlet extends HttpServlet {
         if (a == b && b == c) {
             out.print("EQUILATERAL");
         } else if (a == b || b == c || c == a) {
-            out.print("ISOCELES");
+            out.print("ISOSCELES");
         } else {
             out.print("SCALENE");
         }
